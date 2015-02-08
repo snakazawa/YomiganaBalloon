@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text;
 
-namespace KanjiYomi
+namespace YomiganaBalloon
 {
     /// <summary>
     /// INIファイルを読み書きするクラス

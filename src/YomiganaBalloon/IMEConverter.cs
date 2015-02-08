@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Runtime.InteropServices;
 
-namespace KanjiYomi
+namespace YomiganaBalloon
 {
     /// <summary>
     /// cf. http://handcraft.blogsite.org/Memo/Article/Archives/424

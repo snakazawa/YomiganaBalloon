@@ -1,4 +1,4 @@
-﻿namespace KanjiYomi
+﻿namespace YomiganaBalloon
 {
     partial class Form1
     {

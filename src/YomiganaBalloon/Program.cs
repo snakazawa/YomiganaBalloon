@@ -6,7 +6,7 @@ using System.Threading;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace KanjiYomi
+namespace YomiganaBalloon
 {
     /// <summary>
     /// cf. http://www.atmarkit.co.jp/fdotnet/dotnettips/151winshow/winshow.html
@@ -14,7 +14,7 @@ namespace KanjiYomi
     static class Program
     {
         // アプリケーション固定名
-        private static string strAppConstName = "KanjiYomi";
+        private static string strAppConstName = "YomiganaBalloon";
 
         // 多重起動を防止するミューテックス
         private static Mutex mutexObject;

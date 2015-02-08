@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Security.Permissions;
 
-namespace KanjiYomi
+namespace YomiganaBalloon
 {
     public partial class Form1 : Form
     {
@@ -131,18 +131,18 @@ namespace KanjiYomi
                     if (yomigana == null)
                     {
                         string message = "以下のテキストは自動変換できませんでした:\n" + text;
-                        notifyIcon.ShowBalloonTip(balloonFadeoutSecond * 1000, "KanjiYomi", message, ToolTipIcon.Error);
+                        notifyIcon.ShowBalloonTip(balloonFadeoutSecond * 1000, "YomiganaBalloon", message, ToolTipIcon.Error);
                     }
                     else
                     {
-                        notifyIcon.ShowBalloonTip(balloonFadeoutSecond * 1000, "KanjiYomi", yomigana, ToolTipIcon.Info);
+                        notifyIcon.ShowBalloonTip(balloonFadeoutSecond * 1000, "YomiganaBalloon", yomigana, ToolTipIcon.Info);
                     }
                 }
             }
             catch (Exception ex)
             {
                 string message = "予期せぬエラーが発生しました:\n" + ex.Message;
-                notifyIcon.ShowBalloonTip(balloonFadeoutSecond * 1000, "Error(KanjiYomi)", message, ToolTipIcon.Error);
+                notifyIcon.ShowBalloonTip(balloonFadeoutSecond * 1000, "Error(YomiganaBalloon)", message, ToolTipIcon.Error);
             }
         }
 
