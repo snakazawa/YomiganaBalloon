@@ -1,0 +1,2 @@
+# YomiganaBalloon
+漢字の読みをバルーン表示で簡単に確認できるWindowsアプリケーション
