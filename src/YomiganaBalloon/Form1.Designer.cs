@@ -43,6 +43,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.balloonSecondBox = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
+            this.copyright = new System.Windows.Forms.Label();
             this.contextMenuStrip.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -180,11 +181,23 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "バルーンの表示時間";
             // 
+            // copyright
+            // 
+            this.copyright.AutoSize = true;
+            this.copyright.Font = new System.Drawing.Font("MS UI Gothic", 8F);
+            this.copyright.ForeColor = System.Drawing.Color.DarkGray;
+            this.copyright.Location = new System.Drawing.Point(14, 115);
+            this.copyright.Name = "copyright";
+            this.copyright.Size = new System.Drawing.Size(148, 22);
+            this.copyright.TabIndex = 4;
+            this.copyright.Text = "Copyright © 2015\r\nsnakazawa All Rights Reserved.";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(301, 146);
+            this.ClientSize = new System.Drawing.Size(305, 146);
+            this.Controls.Add(this.copyright);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.applyButton);
             this.Controls.Add(this.groupBox1);
@@ -199,6 +212,7 @@
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.balloonSecondBox)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -217,6 +231,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NumericUpDown balloonSecondBox;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label copyright;
     }
 }
 
