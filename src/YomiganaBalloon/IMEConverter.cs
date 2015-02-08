@@ -6,6 +6,9 @@ using System.Runtime.InteropServices;
 
 namespace KanjiYomi
 {
+    /// <summary>
+    /// cf. http://handcraft.blogsite.org/Memo/Article/Archives/424
+    /// </summary>
     static class IMEConverter
     {
         static public string ConvertYomigana(string str)
