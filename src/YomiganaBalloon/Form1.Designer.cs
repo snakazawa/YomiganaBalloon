@@ -201,7 +201,8 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.applyButton);
             this.Controls.Add(this.groupBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "YomiganaBalloon";
             this.Load += new System.EventHandler(this.Form1_Load);
