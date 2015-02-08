@@ -13,6 +13,8 @@ namespace KanjiYomi
 {
     public partial class Form1 : Form
     {
+        const string INI_FILE_NAME = "./YomiganaBalloon.ini";
+
         HotKey hotKey;
 
         IniFile ini;
@@ -29,7 +31,7 @@ namespace KanjiYomi
             // ホットキーの候補を作成
             hotKeys.DataSource = Enum.GetValues(typeof(Keys));
 
-            ini = new IniFile("./config.ini");
+            ini = new IniFile(INI_FILE_NAME);
             LoadConfig();
             RegisterHotKeyWrap();
 
